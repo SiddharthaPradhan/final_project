@@ -7,7 +7,7 @@ export default function Board({id, title, notes,handleAddNote,handleDeleteNote }
 
 
     return (
-        <div>
+        <div className='board-parent'>
         <div className='board'>
           
             {notes.map((note) => 

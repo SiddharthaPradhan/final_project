@@ -13,21 +13,21 @@ export default function Sidebar( )
 
 
     <div id="sidebarDiv">
-      <div id="header">
-    <img src={stickyImg} class='stickyNotes' id="headerImage"/>
-    <h2 id="headerText">Quick Notes</h2>
-    </div>
+            <div id="header">
+          <img src={stickyImg} class='stickyNotes' id="headerImage"/>
+          <h2 id="headerText">Quick Notes</h2>
+          </div>
 
-    <ul id="boardList">
-    </ul>
-    <div id="addBoardBtn">
-    <img src={plusImg} id='boardPlus'/>
-    <p>Add Board</p>
-    </div>
-    <div id="logoutBtn">
-    <h2>Log out</h2>
-    <img src={gearImg} id='gear'/>
-    </div>
+          <ul id="boardList">
+          </ul>
+          <div id="addBoardBtn">
+          <img src={plusImg} id='boardPlus'/>
+          <p>Add Board</p>
+          </div>
+          <div id="logoutBtn">
+          <h2>Log out</h2>
+          <img src={gearImg} id='gear'/>
+          </div>
     </div>
   )}
     

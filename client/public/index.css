@@ -7,7 +7,8 @@ body {
 .home-wrapper{
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items:flex-end;
 }
 
 
@@ -125,11 +126,20 @@ body {
  
 	display: grid;
 	grid-gap: 1rem; 
+  
+
 	grid-template-columns: repeat(
 		auto-fill,
 		minmax(250px, 1fr)
 	);
 }
+
+.board-parent {
+
+  margin-left:250px;
+  padding: 15px;
+}
+
 .delete-btn {
   position:absolute;
  

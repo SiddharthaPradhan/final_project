@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import Board from '../Board';
 import Sidebar from './Sidebar';
 import { nanoid } from 'nanoid';
@@ -130,11 +130,14 @@ const getColor =  (color) =>
     ]);
 
     return (
-        <div className="home-wrapper">
+       
             
-            {/* <Sidebar></Sidebar> */}
-            <Board notes={notes} handleAddNote={addNote} handleDeleteNote={deleteNote}></Board>
-        </div>
+            <Fragment >
+                    <Sidebar></Sidebar>  
+                    <Board notes={notes} handleAddNote={addNote} handleDeleteNote={deleteNote}></Board>
+            </Fragment>
+           
+     
     )
 
     }
